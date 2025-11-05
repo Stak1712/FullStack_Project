@@ -5,7 +5,7 @@
 ```bash и PowerShell
 python -m venv .venv
 # Windows: .venv\Scripts\activate
-source .venv/bin/activate или ..venv\Scripts\Activate.ps1
+source .venv/bin/activate или .\.venv\Scripts\Activate.ps1
 pip install -U pip
 pip install -e .
 cp .env.example .env
